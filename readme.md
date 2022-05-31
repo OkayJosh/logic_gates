@@ -1,0 +1,1 @@
+[![Build Status](https://app.travis-ci.com/OkayJosh/logic_gates.svg?branch=master)](https://app.travis-ci.com/OkayJosh/logic_gates)
