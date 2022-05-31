@@ -2,6 +2,7 @@
 
 //! This is a logic gates simulation crate built to demostarte writing unit test and integration tests
 
+/// Implements a boolean `and` gate taking as input two bits and returns a bit as output
 pub fn and(a: u8, b: u8) -> u8 {
     match (a, b) {
         (1, 1) => 1,
@@ -9,6 +10,7 @@ pub fn and(a: u8, b: u8) -> u8 {
     }
 }
 
+/// Implements a boolean `xor` gate taking as input two bits and returning a bit as output
 pub fn xor(a: u8, b: u8) -> u8 {
     match (a, b) {
         (1, 0) | (0, 1) => 1,
